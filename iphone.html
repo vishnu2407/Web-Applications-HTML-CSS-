@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Apple</title>
+
+	<style>
+	  @media screen and (max-width: 959px)
+          .list {
+              display: none;
+                                }
+         .list {
+                  float: left;
+                  width: 11%;
+                  padding: 10px 55px 50px;
+                  border-top: 1px solid #e2e5e8;
+                            }
+         dl {
+                  margin-top: 15px;
+	}
+
+
+
+
+	.term {
+                 line-height: 38px;
+                 font-weight: 500;
+                 color: #8d9aa5;
+                 margin: 20 30 20px;
+                 padding-left: 40px;
+                   }
+
+       dt, dd {
+                font-size: 14px;
+	      }
+https://teamtreehouse.com/community/how-do-you-display-the-items-in-a-list-side-by-side
+
+
+	.class {
+               color: #8d9aa5;
+               font-size: 13px;
+               line-height: 22px;
+               margin: 20 30 20px;
+               padding-right: 50px;
+                             }
+
+	#paragraph{
+		     padding-left: 200px;
+		     width: 70%;
+		     color: #C0C0C0;
+		    }
+
+	#para{
+	             padding-left: 100px;
+		     width: 70%;
+		     color: #C0C0C0;
+		     padding: 100px 100px 10px;
+		     border-bottom: 1px solid #e2e5e8;
+		     margin-top: 20px;
+		}
+
+	#p{
+	             padding-left: 100px;
+		     width: 70%;
+		     color: #C0C0C0;		    
+		}
+
+	div{
+	     padding left: 50px;
+		}
+
+
+	
+
+
+	</style>
+</head>
+<body>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="lightblue">
+ <tr>
+  <td>
+    <table border="0" width=80%" cellpadding="15" cellspacing="0" align="center">
+      <tr>
+	<td>
+	  <img src="data:image/png;base64,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" width="40" height="30" />
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          Mac
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          iPad
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          iPhone
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          Watch
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          Tv
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          Music
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          Support
+	</td>
+	<td>
+	  <font face="arial" color="white">
+	          Where to Buy
+	</td>
+	<td cellspacing="15">
+	  <font face="arial" color="white">
+	   <input type="search"></input> 
+	   
+	</td>
+      </tr>
+    </table>
+  </td>
+ </tr>
+</table>
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="lightblue" >
+ <tr>
+  <td>
+    <table border="0" width=80%" cellpadding="15" cellspacing="0" align="center">
+      <tr>
+	<td align="center" valign="middle" height="200">
+	  <h1>
+	     <font face="arial" color="white" align="center">
+	     iPhone SE	  
+	     </font>
+	  </h1>
+	  <h2>
+	     <font face="arial" color="white" align="centre" valign="middle">
+	     Lots to love.Less to spend
+	     </font>
+	  </h2>
+	   <h2>
+	     <font face="arial" color="white" align="centre" valign="middle">
+	     Starting at $399.
+	     </font>
+	  </h2>
+	   <h4>
+	     <font face="arial" color="white" align="centre" valign="middle">
+	     From $9.54/mo. or $299 with trade-in.
+	     </font>
+	  </h4>
+	  <h3>
+	      <font face="arial" size="4" >
+	     <a href="">Learn More> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="">Buy> </a>  
+	  </h3>
+	  <img src="https://images.macrumors.com/article-new/2020/04/iPhone-SE-Cosmopolitan-Clean.png" width="1200" height="900" />
+
+	</td>
+      </tr>
+     </table>
+   </td>
+  </tr>
+</table>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="lightblue" >
+ <tr>
+  <td>
+    <table border="0" width=80%" cellpadding="15" cellspacing="0" align="center">
+      <tr>
+	<td align="center" valign="middle" height="200">
+	  <h1>
+	     <font face="arial" color="black" align="center">
+	     <strong>iPhone 11</strong>  
+	     </font>
+	  </h1>
+	  <h2>
+	     <font face="arial" color="black" align="center">
+	     Just the right amount of everything  
+	     </font>
+	  </h2>
+	  <h3>
+	     <font face="arial" color="black" align="center">
+	      From $18.70/mo. or $499 with trade-in. 
+	     </font>
+	  </h3>
+	  <h3>
+	      <font face="arial" size="4" >
+	     <a href="">Learn More> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="">Buy></a>  
+	  </h3>
+	  <img src="https://pocketnow.com/files/2019/09/iPhone-11-Pro-Inline.jpg" width="1000" height="500" />
+	</td>
+      </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="lightblue" >
+ <tr>
+  <td>
+    <table border="0" width=80%" cellpadding="15" cellspacing="0" align="center">
+      <tr>
+	<td align="center" valign="middle" height="200">
+	  <h1>
+	     <font face="arial" color="black" align="center">
+	     <strong>iPad Pro</strong>  
+	     </font>
+	  </h1>
+	  <h2>
+	     <font face="arial" color="black" align="center">
+	     Your next computer is not a computer  
+	     </font>
+	  </h2>
+	   <h3>
+	      <font face="arial" size="4" >
+	     <a href="">Learn More> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="">Buy></a>  
+	  </h3>
+	<article bgcolor="lightgrey">
+	  <img src="https://cdn.mos.cms.futurecdn.net/SaZrQMNs9PB9wCaD5iybKV.jpg" width="1200" height="900"/>	
+	</article>
+	</td>
+      </tr>
+    </table>
+   </td>
+  </tr>
+</table>
+
+
+<div>
+<table border="0" width="70%" cellpadding="0" cellspacing="0" bgcolor="lightblue" >
+ <tr>
+  <td>
+    <table border="0" width=70%" cellpadding="15" cellspacing="0" align="center">
+      <tr>
+	<td width="70%" align="center" valign="middle"height="200">
+	  <h1>
+	     <font face="arial" color="black" align="center">
+	     <strong>Fashion.</strong>  
+	     </font>
+	  </h1>
+	  <h1>
+	     <font face="arial" color="black" align="center">
+	     <strong>Statement.</strong>  
+	     </font>
+	  </h1>
+	  <font size="5">
+	  <a href="">Shop new Pride Edition bands.</a>
+	  </font>
+	  <img src="https://www.smartwatches4u.com/app/uploads/2019/03/Best-Smartwatches-for-iPhone-Users.jpg" width="650" height="555" />
+	 </td>
+	</tr>
+       <table>
+     </td>
+   </tr>
+ </table>
+</div>
+	<div>
+	<td width="50%">	  
+	    <table border="0" width="170%" cellpadding="0" cellspacing="0" bgcolor="lightblue" >
+             <tr>
+	       <td>
+		 <table border="0" width=100%" cellpadding="15" cellspacing="0" align="center">
+                 <tr>
+	       <td valign="middle" align="center" height="200">
+	         <h1>
+	          <font face="arial" color="black" align="center">
+	            <strong>Buy a Mac or iPad for college.Get AirPods</strong>  
+	          </font>
+	        </h1>
+	       
+		 <img src="https://i.insider.com/5c923bcd5b066e3f484559c3?width=1100&format=jpeg&auto=webp" width="400" height="600" />
+	  
+	      </td>
+             </tr>
+	    </table>
+	  </td>
+         </tr>
+        </table>
+      </td>
+    </div>
+
+
+<table border="0" width="50%" cellpadding="0" cellspacing="0" bgcolor="lightblue" >
+ <tr>
+  <td>
+    <table border="0" width=50%" cellpadding="15" cellspacing="0" align="center">
+      <tr>
+	<td width="50%" align="center" valign="middle"height="200">
+	  <h1>
+	     <font face="arial" color="black" align="center">
+	     <strong>Apple cards</strong>  
+	     </font>
+	  </h1>
+	  <h1>
+	     <font face="arial" color="black" align="center">
+	     <strong>Monthly Installments</strong>  
+	     </font>
+	  </h1>
+	   <h1>
+	     <font face="arial" color="black" align="center" size="3">
+	     <strong>Pay for your new Apple products over time,</strong>  
+	     </font>
+	  </h1>
+	   <h1>
+	     <font face="arial" color="black" align="center" size="3">
+	     <strong>interest-free with your Apple card</strong>  
+	     </font>
+	  </h1>
+	  <font size="5">
+	  <a href="">Learn More></a>
+	  </font>
+	  </br>
+	  </br>
+	  </br>
+	  <img src="https://www.maketecheasier.com/assets/uploads/2017/09/Recycle-Apple-Devices-Header.jpg" width="600" height="456" />
+	  </td>
+     <section class="padding">
+	  <td width="100%">	  
+	    <table border="0" width="150%" cellpadding="0" cellspacing="0" bgcolor="white" >
+             <tr>
+		<td>
+		 <table border="0" width=100%" cellpadding="15" cellspacing="0" align="center">
+                 <tr>
+	       <td valign="middle" align="center" height="200">
+	         <h1>
+	          <font face="arial" color="black" align="center">
+	            <strong>Apple's approach to </strong>  
+	          </font>
+	        </h1>
+	         <h1>
+	          <font face="arial" color="black" align="center">
+	            <strong>reopening our stores </strong>  
+	          </font>
+	        </h1>
+		 <font face="arial" size="4">
+		<a href="">Read the letter></a>
+		</br>
+		</br>
+		</br>
+		</br>
+		</font>
+		 <img src="https://toppng.com/uploads/preview/old-apple-logos-golden-apple-logo-11563260071qsie0zwgxh.png" width="550" height="517" />
+	  
+	      </td>
+            </tr>
+	   </table>
+	   </td>
+	  </tr>
+	 </table>
+	 </td>
+      </section>
+        </tr>
+       </table>
+      </td>
+     </tr>
+</table>
+<p id="paragraph">
+1.Trade In:Trade in values vary.iPhone 11 and iPhone 11 Pro promotional pricing is after trade-in of iPhone 8 plus and iPhone X in a good condition.iPhone SE promotional pricing is after trade-in of iPhone 8 in good condition.Additional trade-in values require purchase of new iPhone,subject to availability and limits.Must be atleast 18.Apple or its trade in partners reserve the right to refuse or limit any Trade in transaction of any reason.In-store Trade-in requires presentation of a valid,government-issued photo-ID(local law may require saving the information).Sales tax may assesed on full value of new iPhone. 
+</p>
+<p id="paragraph">
+	Magic Keyboard sold separately.
+</p>
+<p id="paragraph">
+	Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.
+</p>
+
+
+<footer bgcolor="black">
+<dl class="list">
+ <dt class="term">Shop &Learn</dt>
+   <dd class="class">
+    <a href="">Mac</a>
+   <dd class="class">
+    <a href="">iPad</a>
+   <dd class="class">
+    <a href="">iPhone</a>
+   <dd class="class">
+    <a href="">Watch</a>
+   <dd class="class">
+    <a href="">TV</a>
+   <dd class="class">
+    <a href="">Music</a>
+   <dd class="class">
+    <a href="">AirPods</a>
+   <dd class="class">
+    <a href="">HomePod</a>
+   <dd class="class">
+    <a href="">iPod touch</a>
+   <dd class="class">
+    <a href="">Accessories</a>
+   <dd class="class">
+    <a href="">Gift Cards</a>
+</dl>
+
+<dl class="list">
+ <dt class="term">Apple Store</dt>
+   <dd class="class">
+    <a href="">find a store</a>
+   <dd class="class">
+    <a href="">shop online</a>
+   <dd class="class">
+    <a href="">Genius Bar</a>
+   <dd class="class">
+    <a href="">Today at Apple</a>
+   <dd class="class">
+    <a href="">Apple Camp</a>
+   <dd class="class">
+    <a href="">Feild Trip</a>
+   <dd class="class">
+    <a href="">Apple Store App</a>
+   <dd class="class">
+    <a href="">Refurbished and Clearance</a>
+   <dd class="class">
+    <a href="">Financing</a>
+   <dd class="class">
+    <a href="">Apple Trade In</a>
+   <dd class="class">
+    <a href="">Order Status</a>
+   <dd class="class">
+    <a href="">Shopping Help</a>
+</dl>
+
+
+<dl class="list">
+ <dt class="term">Services</dt>
+   <dd class="class">
+    <a href="">Apple Music</a>
+   <dd class="class">
+    <a href="">Apple News +</a>
+   <dd class="class">
+    <a href="">Appple TV +</a>
+   <dd class="class">
+    <a href="">Apple Arcade</a>
+   <dd class="class">
+    <a href="">Apple Books</a>
+   <dd class="class">
+    <a href="">Apple Card</a>
+   <dd class="class">
+    <a href="">icloud</a>
+   <dt class="term">Account</dt>
+     <dd class="class">
+     <a href="">Manage your Apple ID</a>
+     <dd class="class">
+     <a href="">Apple Store Account</a>
+    <dd class="class">
+     <a href="">iCloud.com</a>
+</dl>
+
+
+<dl class="list">
+ <dt class="term">For Bussiness</dt>
+   <dd class="class">
+    <a href="">Apple and Business</a>
+   <dd class="class">
+    <a href="">Shop for Business</a>
+   <dt class="term">For Education</dt>
+   <dd class="class">
+    <a href="">Appple and Education</a>
+   <dd class="class">
+    <a href="">Shop for K-12</a>
+   <dd class="class">
+    <a href="">Shop for college</a>
+   <dt class="term">For Healthcare</dt>
+   <dd class="class">
+    <a href="">Apple in Healthcare</a>
+   <dd class="class">
+    <a href="">Health on Apple Watch</a>
+   <dt class="term">For Government</dt>
+     <dd class="class">
+     <a href="">Shop for Government</a>
+     <dd class="class">
+     <a href="">Shop for Veterans & Military</a>
+</dl>
+
+
+<dl class="list">
+ <dt class="term">Apple values</dt>
+   <dd class="class">
+    <a href="">Accessibility</a>
+   <dd class="class">
+    <a href="">Education</a>
+   <dd class="class">
+    <a href="">Environment</a>
+   <dd class="class">
+    <a href="">Inclusion and Diversity</a>
+   <dd class="class">
+    <a href="">Privacy</a>
+   <dd class="class">
+    <a href="">Supplier Responsibility</a>
+   <dt class="term">About Apple</dt>
+     <dd class="class">
+     <a href="">Newsroom</a>
+     <dd class="class">
+     <a href="">Apple Leadership</a>
+    <dd class="class">
+     <a href="">Job Opportunities</a>
+     <dd class="class">
+     <a href="">Investor</a>
+     <dd class="class">
+     <a href="">Events</a>
+    <dd class="class">
+     <a href="">Contact Apple</a>
+</dl>
+</footer>
+
+
+<p id="para">
+  More ways to shop:<a href="">Find an Apple store</a> or <a href="">other retailer</a> near you. Or call 1-800-MY-APPLE. 
+</p>
+ 
+<p id="p">
+  Copyright <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJNc2wTdu_wmbhxWRoacGnmDbYVCZtypKybw&usqp=CAU" width="10" height="10"></a> 2020 Apple inc.All rights reserved.&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Privacy Policy&nbsp&nbsp&nbsp | &nbsp&nbsp&nbspTerms of Use&nbsp&nbsp&nbsp | &nbsp&nbsp&nbspSales and Refunds&nbsp&nbsp&nbsp | &nbsp&nbsp&nbspLegal&nbsp&nbsp&nbsp | &nbsp&nbsp&nbspSite Map
+</p>
+
+</body>
+</html>
